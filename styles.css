@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #ffb88c, #434343); /* Đã thay đổi màu sắc */
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    background: #323232; /* Đã thay đổi màu sắc */
+    padding: 10px;
+}
+
+canvas {
+    display: block;
+    border-radius: 4px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+#score {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #f0f0f0; /* Đã thay đổi màu sắc */
+    margin-top: 10px;
+}
